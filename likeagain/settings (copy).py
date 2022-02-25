@@ -42,7 +42,7 @@ ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     # "jet.dashboard",
-    # "channels",
+    "channels",
     "jet",
     'django.contrib.admin',
     'django.contrib.auth',
@@ -108,9 +108,7 @@ TEMPLATES = [
 ]
 
 #WSGI_APPLICATION = 'likeagain.wsgi.application'
-#ASGI_APPLICATION = 'likeagain.asgi.application'
-
-WSGI_APPLICATION = 'likeagain.wsgi.application'
+ASGI_APPLICATION = 'likeagain.asgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
